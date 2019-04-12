@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_menu_add"
+        android:title="add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/LinearLayout"
+        android:title="LinearLayoutManager"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/StaggeredGrid"
+        android:title="StaggeredGridManager"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_staggered"
+        android:title="流式布局"
+        app:showAsAction="never"/>
+
+
+</menu>
